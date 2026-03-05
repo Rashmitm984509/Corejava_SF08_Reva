@@ -2,6 +2,13 @@ package com.tnsif.polymorphsimdemo;
 // demo for method overloading
 
 class Calculator{
+	
+	static int a=9;
+	static void display() {
+		Calculator c=new Calculator();
+		System.out.println(a);
+		
+	}
 	int add(int a,int b) {
 		return a+b;
 	}
@@ -19,6 +26,8 @@ public class Methodoverloading {
 		System.out.println(c.add(2, 8));
 		System.out.println(c.add(7.5, 3.2));
 		System.out.println(c.add(1, 2, 3));
+		Calculator.display();
+		
 	}
 
 }
