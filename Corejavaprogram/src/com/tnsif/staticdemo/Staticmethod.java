@@ -4,7 +4,7 @@ class student{
 	int rollno=9;
 	String name;
 	static String collegename="ITI";
-	 void pay(double amount);
+	
 	
 	static void change() {
 		collegename="Reva";
